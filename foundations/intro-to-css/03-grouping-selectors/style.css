@@ -1,0 +1,10 @@
+body :first-child {
+    background-color: black;
+    color: white;
+}
+
+body button {
+    font-size: 32px;
+    background-color: yellow;
+    color: black;
+}

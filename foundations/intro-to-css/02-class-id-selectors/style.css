@@ -1,0 +1,23 @@
+.num {
+    color: black;
+    background-color: pink;
+    font-size: 22px;
+}
+
+.three {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+#num2 {
+    color: blue;
+    font-size: 36px;
+}
+
+#num4 {
+    background-color: lightgreen;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
