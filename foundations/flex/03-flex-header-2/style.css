@@ -9,8 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
+  padding: 0 16px;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
@@ -35,6 +40,21 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+.left-bar{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.status {
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
